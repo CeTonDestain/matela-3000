@@ -20,6 +20,11 @@ $pages = [
         "controller"=>"HomeController",
         "view"=>"HomeView"
     ),
+    "add"=> array(
+        "model"=>"AddModel",
+        "controller"=>"AddController",
+        "view"=>"AddView"
+    )
 
 ];
 

@@ -56,6 +56,7 @@ main .container {
 }
 main .container .item {
   display: flex;
+  position: relative;
   flex-direction: column;
   background-color: white;
   width: 10rem;
@@ -76,6 +77,39 @@ main .container .item .textContainer .wrong {
 }
 main .container .item .textContainer .good {
   color: red;
+}
+main .littleCross {
+  position: absolute;
+  font-size: 3rem;
+  top: 1rem;
+  right: 1rem;
+}
+main .littleCross:hover {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  padding-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+form .form-group {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 40rem;
+}
+form .form-group label {
+  font-size: 3rem;
+}
+form .form-group input {
+  float: right;
+}
+form button {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
